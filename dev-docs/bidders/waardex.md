@@ -22,7 +22,7 @@ The Waardex Bidding adaptor requires setup and approval before beginning. Please
 {: .table .table-bordered .table-striped }
 | Name          | Scope    | Description                                                      | Example            | Type     |
 |---------------|----------|------------------------------------------------------------------|--------------------|----------|
-| `zoneId`      | required | publisher identifier                                             | 1                  | `number` |
+| `zoneId`      | required | zone ID assigned by Waardex                                      | 1                  | `number` |
 | `bidId`       | required | bid request id                                                   | `'22c4871113f461'` | `string` |
 | `bidfloor`    | required | bid request price                                                | 0.5                | `float`  |
 | `position`    | optional | ad position on the page                                          | 1                  | `number` |
@@ -33,7 +33,7 @@ The Waardex Bidding adaptor requires setup and approval before beginning. Please
 {: .table .table-bordered .table-striped }
 | Name            | Scope    | Description                                                                                             | Example                         | Type            |
 |-----------------|----------|---------------------------------------------------------------------------------------------------------|---------------------------------|-----------------|
-| `zoneId`        | required | publisher identifier                                                                                    | 1                               | `number`        |
+| `zoneId`        | required | zone ID assigned by Waardex                                                                             | 1                               | `number`        |
 | `bidId`         | required | bid request id                                                                                          | `'22c4871113f461'`              | `string`        |
 | `bidfloor`      | required | bid request price                                                                                       | 0.5                             | `float`         |
 | `position`      | optional | ad position on the page                                                                                 | 1                               | `number`        |
@@ -56,6 +56,6 @@ The Waardex Bidding adaptor requires setup and approval before beginning. Please
 ### Bid Params (Prebid Server)
 
 {: .table .table-bordered .table-striped }
-| Name     | Scope    | Description          | Example | Type      |
-|----------|----------|----------------------|---------|-----------|
-| `zoneId` | required | publisher identifier | `30164` | `integer` |
+| Name     | Scope    | Description                 | Example | Type      |
+|----------|----------|-----------------------------|---------|-----------|
+| `zoneId` | required | zone ID assigned by Waardex | `30164` | `integer` |
